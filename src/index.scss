@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Pagina{
+  background: hsl(207, 26%, 17%);
+  color: rgb(244, 248, 248);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.BoxOpcoes{
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 0 0;
+  flex-wrap: wrap;
+}
+
+.BoxEmProducao{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 82px;
+
+  img{
+    width: 300px;
+  }
+
+  button{
+    cursor: pointer;
+    padding: 12px;
+    font-size: 24px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  button:hover{
+    color: rgb(43, 53, 138);
+    box-shadow: 0px 0px 5px 5px rgba(43, 53, 138, 0.2);
+  }
+}

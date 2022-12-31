@@ -1,0 +1,26 @@
+.BoxOpcoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 12px 0 0 0;
+}
+
+.CardVideo{
+    border-radius: 25px;
+    background: hsl(205, 29%, 20%);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 22px;
+    width: 500px;
+    margin: 15px;
+
+    p{
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 22px;
+    }
+
+    iframe{
+        width: 490px;
+        height: 270px;
+    }
+}

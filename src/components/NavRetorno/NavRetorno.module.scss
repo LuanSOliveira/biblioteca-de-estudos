@@ -1,0 +1,24 @@
+.NavRetorno{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Retorno{
+    cursor: pointer;
+    font-size: 48px;
+    padding: 7px 5px 8px 5px;
+    margin: 8px;
+    border-radius: 35px;
+    border: none;
+    width: 62px;
+    height: 60px;
+}
+
+.Retorno:hover{
+    color: rgb(43, 53, 138);
+}
+
+.Invisivel{
+    visibility: hidden;
+}

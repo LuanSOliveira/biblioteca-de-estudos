@@ -1,0 +1,28 @@
+.PropriedadeHtml{
+    h3{
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    button{
+        cursor: pointer;
+        padding: 8px 12px;
+        border-radius: 15px;
+        border: none;
+        font-size: 22px;
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+        transition: 0.5s box-shadow, 0.5s text-shadow, 0.5s background;
+    }
+
+    button:hover{
+        box-shadow: 0px 0px 5px 5px rgba(0, 127, 211, 0.2);
+        text-shadow: 0px 0px 10px rgb(239, 245, 255);
+        background: rgb(228, 228, 228);
+    }
+}
+
+.BoxDescricao{
+    font-size: 20px;
+    margin-bottom: 15px;
+}

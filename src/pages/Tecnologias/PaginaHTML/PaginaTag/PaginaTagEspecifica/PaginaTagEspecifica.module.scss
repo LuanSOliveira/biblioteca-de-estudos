@@ -1,0 +1,20 @@
+.BoxOpcoes{
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 0 0;
+}
+
+.TituloTag{
+    font-size: 40px;
+    text-shadow: 0px 0px 10px rgb(128, 161, 221);
+    text-align: center;
+}
+
+.BoxPropriedadeHtml{
+    border-radius: 25px;
+    background: hsl(205, 29%, 20%);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    margin: 40px 20px;
+    padding: 18px;
+}
